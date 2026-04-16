@@ -28,7 +28,7 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     # https://github.com/actions/runner-images/issues/2840#issuecomment-790492173
     - name: Free up disk space
@@ -40,7 +40,7 @@ jobs:
         df -h
 
     - name: Set up QEMU
-      uses: docker/setup-qemu-action@v3
+      uses: docker/setup-qemu-action@v4
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
