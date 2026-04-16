@@ -12,7 +12,7 @@ on:
       - 'update_lockfile.sh'
 
 env:
-  DOCKER_ORG: cnes
+  DOCKER_ORG: geninv
   GITHUB_SHA: ${{ github.sha }}
   GITHUB_REF: ${{ github.ref }}
 

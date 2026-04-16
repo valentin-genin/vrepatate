@@ -10,7 +10,7 @@ on:
     types: [opened, synchronize, reopened]
 
 env:
-  DOCKER_ORG: cnes
+  DOCKER_ORG: geninv
   GITHUB_SHA: ${{ github.sha }}
   GITHUB_REF: ${{ github.ref }}
 

@@ -7,7 +7,7 @@ on:
     - '*'
 
 env:
-  DOCKER_ORG: cnes
+  DOCKER_ORG: geninv
   GITHUB_REF: ${{ github.ref }}
 
 jobs:
