@@ -18,9 +18,7 @@ do
 done
 echo "[INFO] Executing up startup scripts - Finished"
 
-source /resources/export-*.sh
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
 exec "$@"
-

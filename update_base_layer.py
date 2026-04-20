@@ -30,24 +30,17 @@ def update():
         "datalabs-docker-images/base-notebook/apt.txt",
         ".base_layer/base-notebook-apt.txt",
     )
-    if True:
-        shutil.copyfile(
-            "datalabs-docker-images/pangeo-notebook/environment.yml",
-            ".base_layer/pangeo-notebook-environment.yml",
-        )
-        shutil.copyfile(
-            "datalabs-docker-images/pangeo-notebook/apt.txt",
-            ".base_layer/pangeo-notebook-apt.txt",
-        )
-    if False:
-        shutil.copyfile(
-            "datalabs-docker-images/pytorch-notebook/environment.yml",
-            ".base_layer/pytorch-notebook-environment.yml",
-        )
-        shutil.copyfile(
-            "datalabs-docker-images/pytorch-notebook/apt.txt",
-            ".base_layer/pytorch-notebook-apt.txt",
-        )
+    
+    shutil.copyfile(
+        "datalabs-docker-images/pangeo-notebook/environment.yml",
+        ".base_layer/pangeo-notebook-environment.yml",
+    )
+    shutil.copyfile(
+        "datalabs-docker-images/pangeo-notebook/apt.txt",
+        ".base_layer/pangeo-notebook-apt.txt",
+    )
+    
+    
 
     result = subprocess.run(
         ["rm", "-rf", "datalabs-docker-images"], capture_output=True, text=True

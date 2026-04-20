@@ -6,9 +6,10 @@ A modification in environment.yml is taken into account only if conda-lock file 
 
 * make docker : build the VRE using docker 
 
-* make update : update base layer file (access token of docker-datalab-VRE will be needed). 
+* make update : update base layer file
 make conda-lock and make apt will be needed before make docker or CI launch.
 
+**Note :** It is necessary after `git clone` to use the makefile command `make update`. Otherwise you won't have the .base_layer repository !
 
 # Module
 

@@ -494,15 +494,15 @@ package:
   category: main
   optional: false
 - name: astropy-iers-data
-  version: 0.2026.4.13.0.58.2
+  version: 0.2026.4.20.0.58.15
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.10'
-  url: https://conda.anaconda.org/conda-forge/noarch/astropy-iers-data-0.2026.4.13.0.58.2-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/astropy-iers-data-0.2026.4.20.0.58.15-pyhd8ed1ab_0.conda
   hash:
-    md5: 549b0846ae548c64fc3498f02052a875
-    sha256: c9770bab1fd1d0ed07fefe4d06fc008e7c75a95935a92d8abf15a5a3f103833c
+    md5: d71e65ce65891c43b55aad1d2c1714a6
+    sha256: 5a876f86071e64105e6ccff6d7170feb6bcf07be61874ac078fae3caa0889282
   category: main
   optional: false
 - name: asttokens
@@ -616,7 +616,7 @@ package:
   category: main
   optional: false
 - name: av
-  version: 17.0.0
+  version: 17.0.1
   manager: conda
   platform: linux-64
   dependencies:
@@ -627,10 +627,10 @@ package:
     pillow: ''
     python: '>=3.12,<3.13.0a0'
     python_abi: 3.12.*
-  url: https://conda.anaconda.org/conda-forge/linux-64/av-17.0.0-py312h46547aa_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/av-17.0.1-py312h46547aa_0.conda
   hash:
-    md5: 2065417cc8dfc46e65327a3eb81c1803
-    sha256: cf78869dc7e0e8d7cb712d7c20ab11c841a16a01fc8270e89d23d9fab288758c
+    md5: e800b4dd308728a15292958cedacfc94
+    sha256: e2187850e8fca9bc6c10bcf9f97e35ebd8f12f1fef72759e6dd0ca81ba420dc8
   category: main
   optional: false
 - name: aws-c-auth
@@ -2839,23 +2839,24 @@ package:
   category: main
   optional: false
 - name: fastapi
-  version: 0.135.3
+  version: 0.136.0
   manager: conda
   platform: linux-64
   dependencies:
-    fastapi-core: ==0.135.3
+    fastapi-core: ==0.136.0
     email_validator: ''
     fastapi-cli: ''
+    fastar: ''
     httpx: ''
     jinja2: ''
-    pydantic-settings: ''
     pydantic-extra-types: ''
+    pydantic-settings: ''
     python-multipart: ''
     uvicorn-standard: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/fastapi-0.135.3-hbd727af_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/fastapi-0.136.0-h49129b4_0.conda
   hash:
-    md5: b19a746ffc6b4fd78a571a3229aa7997
-    sha256: 076958a26a7429f0f21324f17d93f005e95e1927d2c0742a84426aa138236af4
+    md5: ddd7fdd03e979d4a6da4b3ef03efb628
+    sha256: b1e176be2ea9ce65914f97c3a7e00a4f41db5e86dfc52ce58c78ff0d50e84036
   category: main
   optional: false
 - name: fastapi-cli
@@ -2875,7 +2876,7 @@ package:
   category: main
   optional: false
 - name: fastapi-core
-  version: 0.135.3
+  version: 0.136.0
   manager: conda
   platform: linux-64
   dependencies:
@@ -2885,10 +2886,26 @@ package:
     typing_extensions: '>=4.8.0'
     typing-inspection: '>=0.4.2'
     pydantic: '>=2.9.0'
-  url: https://conda.anaconda.org/conda-forge/noarch/fastapi-core-0.135.3-pyhcf101f3_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/fastapi-core-0.136.0-pyhcf101f3_0.conda
   hash:
-    md5: 1ed2eb0553d0b601604e20af3db2d9f9
-    sha256: a3d8d44e7b6519eac6b57faaf1c872f8865b125cf6ecb50d2d09467c558294c5
+    md5: c2c6edf318cb6c1485df5cd55837047a
+    sha256: c7e4e3e0a5eae4f27893449c585e5b5124a335409e329f98c3809481a01450dc
+  category: main
+  optional: false
+- name: fastar
+  version: 0.11.0
+  manager: conda
+  platform: linux-64
+  dependencies:
+    python: ''
+    __glibc: '>=2.17,<3.0.a0'
+    libgcc: '>=14'
+    zstd: '>=1.5.7,<1.6.0a0'
+    python_abi: 3.12.*
+  url: https://conda.anaconda.org/conda-forge/linux-64/fastar-0.11.0-py312h42cbcb6_0.conda
+  hash:
+    md5: 71a3f70b63e42bdc994d7d9bdcc53817
+    sha256: 3aad77c606bd1d9c2e35336c83b262e0064c3538c7d2b1215b80e9904959a302
   category: main
   optional: false
 - name: fastcore
@@ -3024,15 +3041,15 @@ package:
   category: main
   optional: false
 - name: filelock
-  version: 3.28.0
+  version: 3.29.0
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.10'
-  url: https://conda.anaconda.org/conda-forge/noarch/filelock-3.28.0-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/filelock-3.29.0-pyhd8ed1ab_0.conda
   hash:
-    md5: 60a871a0e893d6ec7083115beba05001
-    sha256: d1151d785c346bc24bc19b4ee10f5cfd0b1963530e9ab6f7e4f3789640d1154e
+    md5: 8fa8358d022a3a9bd101384a808044c6
+    sha256: 6b471a18372bbd52bdf32fc965f71de3bc1b5219418b8e6b3875a67a7b08c483
   category: main
   optional: false
 - name: findlibs
@@ -3686,15 +3703,14 @@ package:
   category: main
   optional: false
 - name: gh
-  version: 2.88.1
+  version: 2.90.0
   manager: conda
   platform: linux-64
-  dependencies:
-    __glibc: '>=2.17,<3.0.a0'
-  url: https://conda.anaconda.org/conda-forge/linux-64/gh-2.88.1-h76a2195_0.conda
+  dependencies: {}
+  url: https://conda.anaconda.org/conda-forge/linux-64/gh-2.90.0-hfc2019e_0.conda
   hash:
-    md5: 0290cdefa20d98adb936c465ccb76ad6
-    sha256: 78f9fbbf18272e92e62bc1672d34178760ced73edc1e818ebd5fd00296b5df88
+    md5: dd272d60843d8acee216735dca2ee149
+    sha256: a75e901da5e13cbaa5546d69116a48ddb2507464fdc2f34712456c8444431567
   category: main
   optional: false
 - name: gh-scoped-creds
@@ -8787,7 +8803,7 @@ package:
   category: main
   optional: false
 - name: lxml
-  version: 6.0.4
+  version: 6.1.0
   manager: conda
   platform: linux-64
   dependencies:
@@ -8799,10 +8815,10 @@ package:
     libzlib: '>=1.3.2,<2.0a0'
     python: '>=3.12,<3.13.0a0'
     python_abi: 3.12.*
-  url: https://conda.anaconda.org/conda-forge/linux-64/lxml-6.0.4-py312h63ddcf0_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/lxml-6.1.0-py312h63ddcf0_0.conda
   hash:
-    md5: 1fca9c627365cbea654a1aeef2b0044a
-    sha256: 1ea4a5ae5511d4e8bc3ccc56440a861a97d24b1d05139924e583bc9ba35be4d6
+    md5: b19cc6de7dc3b8c6b5996384dfc163e2
+    sha256: cb02acf7254cc5d2dff65fb93c52103d4858da391a13cf4f24b49360ac74da64
   category: main
   optional: false
 - name: lz4
@@ -10930,7 +10946,7 @@ package:
   category: main
   optional: false
 - name: pydantic
-  version: 2.13.1
+  version: 2.13.2
   manager: conda
   platform: linux-64
   dependencies:
@@ -10938,15 +10954,15 @@ package:
     typing_extensions: '>=4.14.1'
     python: ''
     annotated-types: '>=0.6.0'
-    pydantic-core: 2.46.1
-  url: https://conda.anaconda.org/conda-forge/noarch/pydantic-2.13.1-pyhcf101f3_0.conda
+    pydantic-core: 2.46.2
+  url: https://conda.anaconda.org/conda-forge/noarch/pydantic-2.13.2-pyhcf101f3_0.conda
   hash:
-    md5: 4a25ddf3dd4f9224fd710ca53501d8c7
-    sha256: aaf33dd6edc5013d484c907ecedd837ab76c96fcf75acf463d07ce0dd353b5db
+    md5: e6a5d825488a61785db20effeaac2f69
+    sha256: 551e58cc83b15ba1eb1edc71faa9c6001817faebb485f935d1198c27d934d754
   category: main
   optional: false
 - name: pydantic-core
-  version: 2.46.1
+  version: 2.46.2
   manager: conda
   platform: linux-64
   dependencies:
@@ -10955,10 +10971,10 @@ package:
     __glibc: '>=2.17,<3.0.a0'
     libgcc: '>=14'
     python_abi: 3.12.*
-  url: https://conda.anaconda.org/conda-forge/linux-64/pydantic-core-2.46.1-py312h868fb18_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/pydantic-core-2.46.2-py312h868fb18_0.conda
   hash:
-    md5: f336e6fae1c9b275316b523224ff037a
-    sha256: 1ddcb722693f3e9ae6533da4ccf4ac816dfe07c71499ad189aba11c85b391663
+    md5: fdf8f2dd2c94bf6f778aba74a6c867fe
+    sha256: 352d8d75ac359c24cf24fb35f7bd9292e3d2e9e412e68d523f62c2a3ed6e5a45
   category: main
   optional: false
 - name: pydantic-extra-types
@@ -12487,17 +12503,17 @@ package:
   category: main
   optional: false
 - name: ruff
-  version: 0.15.10
+  version: 0.15.11
   manager: conda
   platform: linux-64
   dependencies:
     python: ''
-    libgcc: '>=14'
     __glibc: '>=2.17,<3.0.a0'
-  url: https://conda.anaconda.org/conda-forge/linux-64/ruff-0.15.10-h7805a7d_0.conda
+    libgcc: '>=14'
+  url: https://conda.anaconda.org/conda-forge/linux-64/ruff-0.15.11-h7805a7d_0.conda
   hash:
-    md5: f78d03a6c57a122772ed115c49cd743c
-    sha256: 9b1da9620cb73a58127651b71ac1bf15836aad49fbe5a4bf734a3a0e3cecf0d2
+    md5: 67a5122f008a689124eeb2075c1d92ab
+    sha256: cdbe0e611cf6abfea4d0a8d31721cdd357987ebc4521392638d7b57169422968
   category: main
   optional: false
 - name: s2n
